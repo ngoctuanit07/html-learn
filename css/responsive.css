@@ -1,0 +1,85 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .masthead {
+        width: 100%;
+        max-height: 73px;
+        height: 100%;
+        font-size: 30px;
+    }
+    .masthead-bottom {
+        width: 100%;
+        max-height: 50px;
+        height: 100%;
+        font-size: 24px;
+    }
+    .masthead .topLeft {
+        padding: 2%;
+        color: rgba(253, 255, 77, 255);
+    }
+    .masthead .topLeft span {
+        color: rgba(253, 255, 77, 255);
+        padding-left: 1%;
+    }
+    .masthead .topRight {
+        padding: 2%;
+        color: rgba(255, 255, 255, 255);
+    }
+    .masthead-bottom .bottomLeft {
+        padding: 0;
+        color: rgba(50, 50, 50, 255);
+        text-align: center;
+    }
+    .masthead-bottom .bottomLeft span {}
+    .masthead-bottom .bottomRight {
+        padding: 0%;
+        color: rgba(0, 116, 200, 255);
+        text-align: center;
+    }
+    .masthead-bottom .bottomRight img {
+        margin-top: -7px;
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {}
